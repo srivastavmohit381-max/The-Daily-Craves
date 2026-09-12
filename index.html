@@ -1,0 +1,428 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Daily Craves | Good Food. Good Mood. Every Day!</title>
+  <meta name="description" content="Official website of The Daily Craves food cart. Order delicious steamed & kurkure momos, crispy snacks, rich cold coffee, milkshakes, and refreshing mojitos. Call or WhatsApp: 8795412956.">
+  <meta name="theme-color" content="#FF5A36">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="announcement-inner">
+      <div class="announcement-item">
+        <span>🐼</span>
+        <span><b>The Daily Craves</b> — Good Food. Good Mood. Every Day!</span>
+      </div>
+      <div class="announcement-item">
+        <span>🛵</span>
+        <span>Minimum Order ₹350 for Delivery</span>
+      </div>
+      <div class="announcement-item">
+        <span>📞</span>
+        <span>Order on Call / WhatsApp: <a href="tel:8795412956">+91 8795412956</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Site Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#" class="brand-logo-wrapper">
+        <img src="assets/brand-logo.jpg" alt="The Daily Craves Logo" class="brand-logo-img">
+        <div class="brand-title-group">
+          <h1>The Daily Craves <span>🐼</span></h1>
+          <span class="tagline">Good Food. Good Mood. Every Day!</span>
+        </div>
+      </a>
+
+      <div class="header-actions">
+        <a href="tel:8795412956" class="btn-header-call">
+          <span>📞</span>
+          <span>8795412956</span>
+        </a>
+        <button class="btn-header-cart btn-toggle-cart" aria-label="View Shopping Cart">
+          <span>🛒</span>
+          <span class="cart-text">Cart</span>
+          <span class="cart-badge" id="cart-badge-header">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span>✨</span>
+          <span>Street Food & Cafe Express Cart</span>
+        </div>
+        <h2 class="hero-title">
+          Hot Steamed Momos, Chilled Brews & <span class="highlight">Daily Craves!</span>
+        </h2>
+        <p class="hero-subtitle">
+          From ultra-crunchy Kurkure Momos to thick Oreo Shakes & iced Mojitos, we bring you fresh, mouth-watering street delights crafted with utmost hygiene and love.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#menu" class="btn-primary">
+            <span>🥟</span>
+            <span>Explore Full Menu</span>
+          </a>
+          <a href="https://wa.me/918795412956?text=Hi%20The%20Daily%20Craves!%20I%20would%20like%20to%20place%20an%20order." target="_blank" class="btn-whatsapp">
+            <span>💬</span>
+            <span>WhatsApp: 8795412956</span>
+          </a>
+          <a href="tel:8795412956" class="btn-secondary">
+            <span>📞 Call Us</span>
+          </a>
+        </div>
+
+        <div class="hero-stats-banner">
+          <div class="stat-item">
+            <span class="stat-icon">🥟</span>
+            <span>12+ Momo Varieties</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-icon">☕</span>
+            <span>9 Cold Coffees</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-icon">🍹</span>
+            <span>14 Mojito Flavours</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-icon">🛵</span>
+            <span>Min Delivery ₹350</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mascot Showcase -->
+      <div class="hero-image-wrapper">
+        <div class="mascot-card">
+          <img src="assets/panda-coffee.png" alt="Crave Panda Mascot" class="mascot-img">
+          <div class="floating-stamp">
+            🐼 Snap It • Share It • Tag Us!
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature Highlights Strip -->
+  <section class="features-strip">
+    <div class="container features-grid">
+      <div class="feature-box">
+        <div class="feat-icon">🌱</div>
+        <div>
+          <h4>Fresh Ingredients</h4>
+          <p>Hand-picked daily for top quality</p>
+        </div>
+      </div>
+      <div class="feature-box">
+        <div class="feat-icon">🌶️</div>
+        <div>
+          <h4>Bold Flavours</h4>
+          <p>Spicy chutney & signature dips</p>
+        </div>
+      </div>
+      <div class="feature-box">
+        <div class="feat-icon">❤️</div>
+        <div>
+          <h4>Made with Love</h4>
+          <p>Freshly cooked upon each order</p>
+        </div>
+      </div>
+      <div class="feature-box">
+        <div class="feat-icon">✨</div>
+        <div>
+          <h4>Hygienic & Safe</h4>
+          <p>Clean food cart & spotless prep</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sticky Menu Filters & Categories Bar -->
+  <nav class="menu-controls-section" id="menu">
+    <div class="container">
+      <div class="menu-controls-row">
+        <!-- Search bar -->
+        <div class="search-box-wrapper">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="menu-search" class="search-input" placeholder="Search momos, coffees, shakes...">
+        </div>
+
+        <!-- Veg / Non-veg filters -->
+        <div class="diet-filters">
+          <button class="diet-pill active" data-diet="all">All</button>
+          <button class="diet-pill" data-diet="veg">🟢 Pure Veg</button>
+          <button class="diet-pill" data-diet="non-veg">🔴 Non-Veg</button>
+        </div>
+      </div>
+
+      <!-- Horizontal scrollable category pills -->
+      <div class="category-tabs-scroll">
+        <button class="category-tab-btn active" data-category="all">
+          <span>✨</span>
+          <span>All Items</span>
+        </button>
+        <button class="category-tab-btn" data-category="momos">
+          <span>🥟</span>
+          <span>Momos</span>
+        </button>
+        <button class="category-tab-btn" data-category="snacks">
+          <span>🍟</span>
+          <span>Snacks</span>
+        </button>
+        <button class="category-tab-btn" data-category="cold-coffee">
+          <span>☕</span>
+          <span>Cold Coffee</span>
+        </button>
+        <button class="category-tab-btn" data-category="milkshakes">
+          <span>🥤</span>
+          <span>Milk Shakes</span>
+        </button>
+        <button class="category-tab-btn" data-category="mojitos">
+          <span>🍹</span>
+          <span>Mojitos</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Menu Content Section -->
+  <main class="menu-section">
+    <div class="container" id="menu-container">
+      <!-- Injected dynamically by app.js -->
+    </div>
+  </main>
+
+  <!-- Social & Instagram Spotlight Section -->
+  <section class="social-community-section">
+    <div class="container social-grid">
+      <div class="social-info">
+        <div class="hero-badge" style="background:#FFF;">
+          <span>📸</span>
+          <span>Instagram Community</span>
+        </div>
+        <h2>Loved Your Food? Let's Make It Official! 💖</h2>
+        <p>
+          Snap a photo of your meal at our food cart or at home, tag us on Instagram stories, and get featured on our official page!
+        </p>
+
+        <div class="social-steps-list">
+          <div class="social-step">
+            <div class="step-number">1</div>
+            <div>
+              <h5>Click a Picture</h5>
+              <p>With your delicious food & yourself!</p>
+            </div>
+          </div>
+          <div class="social-step">
+            <div class="step-number">2</div>
+            <div>
+              <h5>Share It on Instagram</h5>
+              <p>Post on your story or reels.</p>
+            </div>
+          </div>
+          <div class="social-step">
+            <div class="step-number">3</div>
+            <div>
+              <h5>Tag @the.daily.craves</h5>
+              <p>Be a part of The Daily Craves family!</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+          <a href="https://instagram.com/the.daily.craves" target="_blank" class="btn-primary" style="background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); border: none;">
+            <span>📷</span>
+            <span>Follow @the.daily.craves</span>
+          </a>
+          <a href="tel:8795412956" class="btn-secondary">
+            <span>📞 Call 8795412956</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Social Post & QR Showcase -->
+      <div class="social-cards-duo">
+        <div class="social-poster-card">
+          <img src="assets/social-feature.jpg" alt="Loved your food - The Daily Craves">
+          <span>📸 Share & Tag Us!</span>
+        </div>
+        <div class="social-poster-card">
+          <img src="assets/instagram-qr.jpg" alt="Scan QR to follow on Instagram">
+          <span>📱 Scan QR to Follow</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Printed Menu Board Reference Section -->
+  <section class="menu-card-ref-section">
+    <div class="container">
+      <h3 style="font-family: var(--font-heading); font-size: 1.8rem; color: var(--brand-dark); margin-bottom: 0.5rem;">
+        📋 Our Official Food Cart Menu Board
+      </h3>
+      <p style="color: var(--text-muted); font-size: 0.95rem; max-width: 600px; margin: 0 auto;">
+        All menu items, sizes (Half / Full, Small / Medium / Large), and exact prices replicate our official on-cart printed board.
+      </p>
+
+      <div class="menu-card-preview">
+        <img src="assets/full-menu-board.jpg" alt="Official Menu Board - The Daily Craves">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
+          <img src="assets/brand-logo.jpg" alt="The Daily Craves Logo" style="width: 44px; height: 44px; border-radius: 50%;">
+          <h3>The Daily Craves</h3>
+        </div>
+        <p>
+          Good Food. Good Mood. Every Day! The ultimate food cart destination for mouth-watering momos, loaded fries, creamy cold coffees, and cool mojitos.
+        </p>
+        <a href="tel:8795412956" class="footer-contact-link">
+          <span>📞</span>
+          <span>+91 8795412956</span>
+        </a>
+        <div style="font-size: 0.85rem; color: #BFAEA4; margin-top: 0.25rem;">
+          🛵 Minimum Order for Delivery: <b>₹350</b>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h4>Menu Highlights</h4>
+        <ul class="footer-list">
+          <li><a href="#menu">Steamed, Fried & Kurkure Momos</a></li>
+          <li><a href="#menu">Crispy French Fries & Spring Rolls</a></li>
+          <li><a href="#menu">Classic & Oreo Cold Coffees</a></li>
+          <li><a href="#menu">Thick Chocolate & Rasmalai Shakes</a></li>
+          <li><a href="#menu">14 Refreshing Mojito Flavours</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Service & Hours</h4>
+        <ul class="footer-list">
+          <li>🕒 <b>Opening Hours:</b> 12:00 PM – 11:00 PM</li>
+          <li>📅 <b>Days:</b> Open All 7 Days</li>
+          <li>📍 <b>Cart Service:</b> Takeaway, Dine-in & Delivery</li>
+          <li>📷 <b>Instagram:</b> <a href="https://instagram.com/the.daily.craves" target="_blank" style="color: #FFD166;">@the.daily.craves</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 The Daily Craves. Served with love & spicy happiness ❤️ • Contact: +91 8795412956</p>
+    </div>
+  </footer>
+
+  <!-- Slide-in Cart Drawer / Modal -->
+  <div class="cart-drawer-overlay" id="cart-drawer-overlay">
+    <div class="cart-drawer" id="cart-drawer">
+      <!-- Header -->
+      <div class="cart-header">
+        <h3 class="cart-header-title">
+          <span>🛒</span>
+          <span>Your Order Cart</span>
+        </h3>
+        <button class="btn-close-cart" id="btn-close-cart" aria-label="Close cart">✕</button>
+      </div>
+
+      <!-- Delivery Minimum Meter -->
+      <div class="delivery-meter-box">
+        <div class="delivery-meter-text" id="delivery-meter-text">
+          <span>🛵 Delivery Progress</span>
+          <span>₹0 / ₹350</span>
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="delivery-meter-fill"></div>
+        </div>
+      </div>
+
+      <!-- Items List -->
+      <div class="cart-items-container" id="cart-items-list">
+        <!-- Rendered by app.js -->
+      </div>
+
+      <!-- Order Details Form -->
+      <div class="cart-checkout-form">
+        <div class="order-type-tabs">
+          <button type="button" class="order-type-btn active" data-type="delivery">🛵 Home Delivery (Min ₹350)</button>
+          <button type="button" class="order-type-btn" data-type="takeaway">🥡 Food Cart Pickup</button>
+        </div>
+
+        <div class="form-field-group">
+          <input type="text" id="cust-name" class="form-input" placeholder="Your Name (Aapka Naam)">
+          <input type="tel" id="cust-phone" class="form-input" placeholder="Your Phone Number (Mobile No)">
+          <div id="delivery-address-group">
+            <input type="text" id="cust-address" class="form-input" placeholder="Delivery Address & Landmark">
+          </div>
+        </div>
+      </div>
+
+      <!-- Cart Bill & Actions -->
+      <div class="cart-footer">
+        <div class="cart-bill-row">
+          <span>Item Total</span>
+          <span id="cart-bill-subtotal">₹0</span>
+        </div>
+        <div class="cart-bill-row">
+          <span>Delivery Charges</span>
+          <span style="color: #2ECC71; font-weight: 600;">FREE (Orders above ₹350)</span>
+        </div>
+        <div class="cart-bill-row total">
+          <span>Grand Total</span>
+          <span id="cart-bill-total">₹0</span>
+        </div>
+
+        <button type="button" class="btn-checkout-whatsapp" id="btn-checkout-whatsapp">
+          <span>💬</span>
+          <span>Place Order on WhatsApp</span>
+        </button>
+
+        <a href="tel:8795412956" class="btn-cart-call">
+          <span>📞 Or Call directly: 8795412956</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Bottom Sticky Floating Cart Bar -->
+  <div class="mobile-bottom-bar">
+    <div class="mobile-bottom-inner">
+      <div class="mobile-cart-summary">
+        <span class="mobile-cart-count" id="mobile-cart-count">0 items</span>
+        <span class="mobile-cart-total" id="mobile-cart-total">₹0</span>
+      </div>
+      <button class="btn-mobile-checkout btn-toggle-cart">
+        <span>🛒 View Cart</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="menu-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

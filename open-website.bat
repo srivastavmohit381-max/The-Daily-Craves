@@ -1,0 +1,3 @@
+@echo off
+echo Opening The Daily Craves Food Cart Website...
+start "" "index.html"
